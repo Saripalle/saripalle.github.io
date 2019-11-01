@@ -13,7 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Sashi Saripalle
+
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale                   : "en-US"
+title_separator          : "-"
+title: Pattern Noise
 email: ""
 description: "Machine Learning, Biometrics"
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -21,6 +27,22 @@ url: "https://saripalle.github.io" # the base hostname & protocol for your site,
 github_username:  saripalle
 google_analytics: ""
 
+# Site Author
+author:
+  name : "Sashi Saripalle"
+  avatar : img/testim.png
+  bio : "Research | ZOLOZ"
+  location : "Kansas City"
+  links:
+    - label: "e-mail"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:sashikanth.s@gmail.com
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/sashi-saripalle-2b6a7462/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/saripalle"
 
 # Build settings
 permalink: none
