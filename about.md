@@ -5,10 +5,12 @@ permalink: /about/
 ---
 <br>
 I am a Research Scientist with ZOLOZ, where I work on advancing our biometric products using machine learning. I am passionate about biometrics and "AI for social good" - especially in the fields of agriculture and health industry and always looking for challenges in these fields.
+
 ---
 <br>
 I received my Masters and PhD from <a href="https://www.polytechnique.edu/"> <b University of Missouri - Kansas City</b></a> in Computer Engineering. My Masters research was in the
 domain of non-invasive human motion recognition, and my PhD research is related to ocular biometrics. I was also involved in some cool research projects including postmortem biometrics, deception detection and multi spectral biometrics.
+
 ---
 <br>
 I did some research with the <a href="https://stanfordmlgroup.github.io">Machine Learning Group</a> on Natural Language Processing, and was one of the authors of a <a href="http://aclweb.org/anthology/N18-1057">paper</a> introducing a simple noising technique for data generation applied to the Grammar-Correction task. I invite you to test a <a href="https://crio.stanford.edu"><b>cool alternative to grammarly, named Crio</b></a>, being developed on top of this work.
