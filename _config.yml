@@ -14,11 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-minimal_mistakes_skin    : "neon"
-
-# Site Settings
-locale                   : "en-US"
-title_separator          : "-"
 title: Sashi Saripalle
 email: ""
 description: "Machine Learning, Biometrics"
@@ -28,20 +23,6 @@ github_username:  saripalle
 google_analytics: ""
 
 avatar : img/testim.png
-author:
-  name: sashi saripalle
-
-  bio : "Research | ZOLOZ"
-  location : "Kansas City"
-  social-network-links:
-      email: "sashikanth.s@gmail.com"
-      linkedin: "sashi-saripalle-2b6a7462"
-      github: "saripalle"
-
-share-links-active:
-  email: true
-  github: true
-  linkedin: true
 
 # Build settings
 permalink: none
@@ -71,21 +52,3 @@ curriculum:
     info: 2012-2015
     description: Biometric and Computer Vision Research Intern
     url: http://eyeverify.com
-
-
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: single
-      social-share: true
-
-  # _pages
-  - scope:
-      path: ""
-    values:
-      layout: "page"
-      show-avatar: true
