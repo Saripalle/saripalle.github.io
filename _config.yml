@@ -27,22 +27,22 @@ url: "https://saripalle.github.io" # the base hostname & protocol for your site,
 github_username:  saripalle
 google_analytics: ""
 
-# Site Author
-author:
-  name : "Sashi Saripalle"
-  avatar : img/testim.png
-  bio : "Research | ZOLOZ"
-  location : "Kansas City"
-  links:
-    - label: "e-mail"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:sashikanth.s@gmail.com
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/sashi-saripalle-2b6a7462/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/saripalle"
+# # Site Author
+# author:
+#   name : "Sashi Saripalle"
+#   avatar : img/testim.png
+#   bio : "Research | ZOLOZ"
+#   location : "Kansas City"
+#   links:
+#     - label: "e-mail"
+#       icon: "fas fa-fw fa-envelope-square"
+#       url: mailto:sashikanth.s@gmail.com
+#     - label: "LinkedIn"
+#       icon: "fab fa-linkedin"
+#       url: "https://www.linkedin.com/in/sashi-saripalle-2b6a7462/"
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/saripalle"
 
 # Build settings
 permalink: none
