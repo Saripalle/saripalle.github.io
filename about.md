@@ -17,4 +17,5 @@ I had a very different PhD path compared to traditional doctoral candidate, a gr
 ---
 <br>
 I have 11 published patents and around 13 published papers (<a href="https://scholar.google.com/citations?user=U-WaO8UAAAAJ&hl=en">link</a>) mostly in the domain of biometrics related to machine learning and computer vision.
---
+
+---
