@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /about/
 ---
-<br>
+
 I am a Research Scientist with ZOLOZ, where I work on advancing our biometric products using machine learning. I am passionate about biometrics and "AI for social good" - especially in the fields of agriculture and health industry and always looking for challenges in these fields.
 
 ---
