@@ -3,11 +3,11 @@ layout: about
 title: About
 permalink: /about/
 ---
-
+<br>
 I am a Research Scientist with ZOLOZ, where I work on advancing our biometric products using machine learning. I am passionate about biometrics and "AI for social good" - especially in the fields of agriculture and health industry and always looking for challenges in these fields.
 ---
 <br>
-I received my Masters and PhD from <a href="https://www.polytechnique.edu/"><b>University of Missouri - Kansas City</b>/a> in Computer Engineering. My Masters research was in the 
+I received my Masters and PhD from <a href="https://www.polytechnique.edu/"> <b University of Missouri - Kansas City</b></a> in Computer Engineering. My Masters research was in the
 domain of non-invasive human motion recognition, and my PhD research is related to ocular biometrics. I was also involved in some cool research projects including postmortem biometrics, deception detection and multi spectral biometrics.
 ---
 <br>
