@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Publishing Machine Learning model on your personal webpage"
-description: "Use flask, heroku and github page to showcase your ml project"
-excerpt: "Deploy ML using flask and heroku"
-date:   2019-11-01
+title:  "Forests"
+description: "Concept, Application, Math for statistical classification"
+excerpt: "Understanding statistical classification"
+date:   2020-04-01
 mathjax: true
 comments: true
 published: true
@@ -12,14 +12,6 @@ github: None
 ---
 
 ## Introduction
-
-Before going into the intro, I want to give full credit to @guillaumegenthial for his tutorial. This demo was built based on his project.
-
-This is an incomplete page, and in progress. 
-
-I wanted to see if I can deploy my machine learning models on web (just like deploying flask server on internal networks). I have never encountered situations to deploy the model I built on servers outside of our networks. After a bit of searching, I found the demo by @guillaumegenthial very easy to understand, and decided to give it a try. It was easy to follow the tutorial, and below is my version for predicting the crop based on images.
-
-To understand the process, I created a model to predict the crop type based on satellite images. I thought it was a cool project with a real use case. I also present the results ion larger dataset, previous work and code below.
 
 Our goal is to build an API that will look like
 
