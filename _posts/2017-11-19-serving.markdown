@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "ReLU - Is it really differentiable?"
-description: "Differntiability of Rectified Linear Unit"
-excerpt: ""
+description: ""
+excerpt: "Differntiability of Rectified Linear Unit"
 date:   2020-04-01
 mathjax: true
 comments: true
@@ -76,4 +76,4 @@ $$
 
 So, the limit $\dfrac{\Delta{y}}{\Delta{x}}$ at $x=0$ depends on the sign of $\Delta{x}$, and thus has no derivative.
 
-For more information on how ReLU is practically implemented in your favorite DL framework, please google :). There is a ton of information on practical implementation of non differential functions. 
+For more information on how ReLU is practically implemented in your favorite DL framework, please google :). There is a ton of information on practical implementation of non differential functions.
