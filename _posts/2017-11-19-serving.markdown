@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Forests"
-description: "Concept, Application, Math for statistical classification"
-excerpt: "Understanding statistical classification"
+title:  "ReLU - Is it really differentiable?"
+description: "Differntiability of Rectified Linear Unit"
+excerpt: ""
 date:   2020-04-01
 mathjax: true
 comments: true
@@ -12,13 +12,68 @@ github: None
 ---
 
 ## Introduction
+As we understand, all functions used in a neural network should be differentiable. For more information regarding this criteria please read up on <a href="https://en.wikipedia.org/wiki/Backpropagation">Backpropagation</a>
 
-Our goal is to build an API that will look like
 
-{% include api_ner.html
-    placeholder="#RespectMyAuthority"
-    default_input="#RespectMyAuthority"
-    default_output=" - - "
-    header="Interact with the model!"
-    url=""
-%}
+Rectified Linear Unit or ReLU is a peice-wise linear, continuous function which takes the form
+
+$$
+  f(x) = \begin{cases}
+    x,  & \text{if $ x$ > 0}\\
+    0,  & \text{if $ x$ $\le$ 0 } \\
+    \end{cases}
+$$
+
+Below is the image which shows the obvious from above math equation.
+{% include image.html url="/assets/relu_diff/relu_3.png" description="ReLU" %}
+
+<b><u><i>Now a little refresher on differentiability of a function</i></u></b>
+
+A function $$y = f(x)$$ is differentiable if there exists a derivative for the function at a certain bound. The function has a definitive value for all $$x$$ in a certain interval. Now if the value of $$x$$ is increased by a certain small value $$\Delta{x}$$, then the function maps to a $$ y+\Delta{y}$$
+
+So, $$\Delta{y} = f(x+\Delta{x})-f(x)$$
+
+Forming the ratio of $$\Delta{y}$$ and $$\Delta{x}$$ we get:
+
+$$
+\dfrac{\Delta{y}}{\Delta{x}} = \dfrac{f(x+\Delta{x})-f(x)}{\Delta{x}}
+$$
+
+If the limit of this ratio exists while $$\Delta{x} \rightarrow 0$$, it is known as derivative of the function $$f(x)$$.
+It is important to note that the ratio of $\dfrac{\Delta{y}}{\Delta{x}}$ should approach one and the same _**irrespective of the direction of movement of $\Delta{x}$**_.
+
+One of the interesting properties of a differentiable function is: if the function $f(x)$ is differentiable at some point $x_{n}$, then it is also continuous at that point.
+> But, what does it mean when we say the function is continuous at a point $x_{n}$?
+
+A function $f(x)$ is said to be continuous at a point $x_{n}$ if it is defined in some neighborhood of the point $x_{n}$ and if
+$
+\lim\limits_{\Delta{x} \to 0}\Delta{y} = 0
+$
+
+However, the converse is not true. Lets check this in case of ReLU.
+
+
+$$
+  \begin{cases}
+    \Delta{y} = \Delta{x},  & \text{if $ x$ > 0}\\
+    \Delta{y} = 0,  & \text{if $ x$ $\le$ 0 } \\
+    \end{cases}
+$$
+
+So, as $\Delta{x}\to 0$, $\Delta{y}\to0$, proving that ReLU is continuous at $x=0$
+
+Now coming to derivative at $x=0$ for ReLU, when $\boxed{\Delta{x}>0}$
+
+$$
+\dfrac{f(0+\Delta{x})-f(0)}{\Delta{x}} = \lim\limits_{\Delta{x} \to 0}\dfrac{\Delta{x}}{\Delta{x}}=1
+$$
+
+when $\boxed{\Delta{x}\le0}$,
+
+$$
+\dfrac{\Delta{y}}{\Delta{x}} = 0
+$$
+
+So, the limit $\dfrac{\Delta{y}}{\Delta{x}}$ at $x=0$ depends on the sign of $\Delta{x}$, and thus has no derivative.
+
+For more information on how ReLU is practically implemented in your favorite DL framework, please google :). There is a ton of information on practical implementation of non differential functions. 
